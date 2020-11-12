@@ -320,7 +320,7 @@ div.card {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-  background-color: ghostwhite;
+  background-color: white;
   border-radius: 20px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -981,10 +981,11 @@ div.collapsible-wrap {
   display: flex;
   justify-content: left;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .bottom_content_text{
-  width: 30%;
+  width: 400px;
   height: 100%;
   display: flex;
   flex-direction: column;
