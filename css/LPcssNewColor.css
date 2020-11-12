@@ -1021,7 +1021,8 @@ div.collapsible-wrap {
 }
 .bottom-list:hover {
   transform: translateX(10px);
-  background-color: #0077B6;
+  /* background-color: #0077B6; */
+  background-color:rgba(0,119,182,0.5);
   text-decoration: underline;
   border-left: 8px solid #00A896;
 }
