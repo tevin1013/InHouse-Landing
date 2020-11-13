@@ -752,7 +752,7 @@ h2.statement2{
 }
 .enroll_now{
   width: 550px;
-  height: 200px;
+  height: 220px;
   background-color: white;
   /* border: 5px solid #E7E9EE; */
   border-radius: 10px;
@@ -767,24 +767,27 @@ h2.statement2{
   font-family: 'Cabin', sans-serif;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to top right, #0077B6, #00A896);
 
 }
 .enroll_now h2 {
   font-size: 25px;
   color: #F5F6F8;
   font-weight: normal;
-  /* margin-top: 15px; */
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .enroll_now p {
   font-size: 17px;
   width: 80%;
   padding: 10px;
+  color: #F5F6F8;
 }
 .enroll_now button {
   font-size: 17px;
   text-align: center;
-  background-color: #00A896;
-  color: ghostwhite;
+  background-color: white;
+  color: #0077B6;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 12px;
@@ -793,12 +796,12 @@ h2.statement2{
   margin: 10px;
   border: none;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
   /* padding: 10px; */
 }
 .contact_us{
   width: 550px;
-  height: 200px;
+  height: 220px;
   background-color: white;
   /* border: 5px solid #E7E9EE; */
   border-radius: 10px;
@@ -813,25 +816,28 @@ h2.statement2{
   font-family: 'Cabin', sans-serif;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(to top right, #00A896, #0077B6);
 
   }
   .contact_us h2 {
-    font-size: 25px;
-    color: #F5F6F8;
-    font-weight: normal;
-    /* margin-top: 15px; */
+  font-size: 25px;
+  color: #F5F6F8;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 10px;
   }
   .contact_us p {
-    font-size: 17px;
-    width: 80%;
-    /* margin-top: 5px; */
+  font-size: 17px;
+  width: 80%;
+  /* margin-top: 5px; */
   padding: 10px;
+  color: #F5F6F8;
   }
   .contact_us button {
     font-size: 17px;
     text-align: center;
-    background-color: #00A896;
-    color: ghostwhite;
+    background-color: white;
+    color: #0077B6;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 12px;
@@ -840,21 +846,21 @@ h2.statement2{
     margin: 10px;
     border: none;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
     /* padding: 10px; */
 }
 .contact_us button:hover{
-  background-color: #007A6E;
+  background-color: #F5F6F8;
   cursor: pointer;
 }
 .enroll_now button:hover{
-  background-color: #007A6E;
+  background-color: #F5F6F8;
   cursor: pointer;
 }
 .cta_dash{
-  width: 50%;
-  height: 2px;
-  background-color: #00A896;
+  width: 40%;
+  height: 0.1px;
+  background-color: #0D1321;
 }
 .learnbutton{
   border: none;
