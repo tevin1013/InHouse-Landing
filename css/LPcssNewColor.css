@@ -178,11 +178,16 @@ div.burger{
   /* flex-direction: column; */
   flex-direction: column;
   height: 100%;
-  background-color: #f5f6f8;
+  /* background-color: #f5f6f8; */
   width: 100%;
   font-family: 'Cabin', sans-serif;
   /* padding-bottom: 15px; */
   padding-top: 30px;
+  background-image: url("../images/teambg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 300px;
 
 }
 .catalog_section{
@@ -1047,6 +1052,7 @@ div.collapsible-wrap {
   width: auto;
   margin-left: 20px;
   align-self: center;
+  /* margin-left: auto; */
 }
 @media screen and (max-width: 1125px){
   .bottom_wrap{
