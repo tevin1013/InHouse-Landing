@@ -714,7 +714,7 @@ h2.statement2{
   width: 100%;
   height: 100%;
   background-color: #154360;
-  background-image: url("../images/backG%20copy.jpg");
+  background-image: url("../images/bottombg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -734,6 +734,17 @@ h2.statement2{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
+}
+.headerbg {
+  width: 100%;
+  background-color: #154360;
+  height: 50px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .enroll_now{
   width: 550px;
@@ -756,14 +767,13 @@ h2.statement2{
 }
 .enroll_now h2 {
   font-size: 25px;
-  color: #154360;
-  margin-top: 15px;
+  color: #F5F6F8;
+  font-weight: normal;
+  /* margin-top: 15px; */
 }
 .enroll_now p {
   font-size: 17px;
   width: 80%;
-
-
 
 
   /* padding: 10px; */
@@ -805,13 +815,15 @@ h2.statement2{
   }
   .contact_us h2 {
     font-size: 25px;
-    color: #154360;
-    margin-top: 15px;
+    color: #F5F6F8;
+    font-weight: normal;
+    /* margin-top: 15px; */
   }
   .contact_us p {
     font-size: 17px;
     width: 80%;
-  /* padding: 10px; */
+    /* margin-top: 5px; */
+  padding: 10px;
   }
   .contact_us button {
     font-size: 15px;
@@ -995,7 +1007,7 @@ div.collapsible-wrap {
   margin-top: 25px;
 }
 .bottom_content_text li {
-  color: ghostwhite;
+  /* color: ghostwhite; */
   text-decoration: none;
   list-style-type: none;
   align-items: center;
@@ -1010,7 +1022,10 @@ div.collapsible-wrap {
   font-weight: bold;
   padding: 20px;
   margin-top: 20px;
+  color: ghostwhite;
+  text-decoration: underline;
 }
+
 .bottom-list{
   padding: 20px;
   margin: 5px;
@@ -1018,6 +1033,7 @@ div.collapsible-wrap {
   transition: transform 0.3s;
   /* width: 200px; */
   min-width: 250px;
+  color: ghostwhite;
 }
 .bottom-list:hover {
   transform: translateX(10px);
