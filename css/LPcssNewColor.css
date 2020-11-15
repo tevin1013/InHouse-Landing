@@ -682,7 +682,7 @@ div.about_title_wrapper{
   justify-content: center;
   background-color: #0077b6;
   border-top: 2px solid ghostwhite;
-  /* background-image: linear-gradient(to top right, #00507A, #0077B6, #0077B6); */
+  background-image: linear-gradient(to right, #00A896, #0077B6);
 }
 
 h1.statement{
